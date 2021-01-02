@@ -2,7 +2,6 @@ import React from 'react';
 import { mount } from 'enzyme';
 import Root from 'Root'
 import CommentBox from 'components/CommentBox';
-import { unmountComponentAtNode } from 'react-dom';
 
 let wrapped;
 beforeEach(() => {
