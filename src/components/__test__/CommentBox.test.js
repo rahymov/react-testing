@@ -18,7 +18,7 @@ it('has a textarea and button', () => {
     // console.log(wrapped.find("textarea").length);
     // console.log(wrapped.find('button').length);
     expect(wrapped.find('textarea').length).toEqual(1)
-    expect(wrapped.find('button').length).toEqual(1)
+    expect(wrapped.find('button').length).toEqual(2)
 })
 
 describe('the textarea', () => {
